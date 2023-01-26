@@ -6,8 +6,11 @@
 
 /* DEBUG  */
 
-.debug header{
-    
+.debug_size{
+    width: 50px;
+    height: 30px;
+    margin: 0 5px;
+    background-color: rgba(204, 204, 204, 0.76);
 }
 
 .debug .main_container{
@@ -84,4 +87,18 @@ footer{
     left: 0;
     bottom: 0;
     background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_right{
+    display: flex;
+}
+
+.footer_center{
+    display: flex;
+}
+
+.footer_left{
+    
 }
