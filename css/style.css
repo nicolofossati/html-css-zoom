@@ -65,8 +65,15 @@ main{
 }
 
 .person{
-    height: 140px;
-    width: 230px;
+    height: 116px;
+    width: 190px;
+    background-color: rgb(105, 105, 105);
+    margin: 10px 2px;
+    display: inline-block;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }
 
 
