@@ -48,6 +48,9 @@ main{
     margin: auto;
     overflow-y: auto;
     background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .person{
