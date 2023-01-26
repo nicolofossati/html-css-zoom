@@ -13,24 +13,12 @@
     background-color: rgba(204, 204, 204, 0.76);
 }
 
-.debug .main_container{
-    background-color: green;
-}
+
 .debug main{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
 }
 
-.debug .speaker_view{
-    background-color: grey;
-    width: 100px;
-    height: 30px;
-}
 
-.debug .extend{
-    background-color: rgb(191, 189, 189);
-    width: 100px;
-    height: 30px;
-}
 
 /* fine DEBUG  */
 
@@ -45,11 +33,22 @@ header{
     background-color: black;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
 }
 
 header .video_settings{
     display: flex;
+}
+
+
+
+.background_bttn{
+    font-size: 12px;
+    color: white;
+    background-color: #4A4A4A;
+    border-radius: 5px;
+    padding: 4px 4px;
+    margin: 5px 5px 0 0;
 }
 
 
@@ -65,6 +64,7 @@ main{
     height: 100%;
     margin: auto;
     overflow-y: auto;
+    background-color: black;
 }
 
 .person{
