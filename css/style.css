@@ -10,12 +10,25 @@
     
 }
 
-.debug main{
+.debug .main_container{
     background-color: green;
 }
-.debug footer{
-    
+.debug main{
+    background-color: aquamarine;
 }
+
+.debug .speaker_view{
+    background-color: grey;
+    width: 100px;
+    height: 30px;
+}
+
+.debug .extend{
+    background-color: rgb(191, 189, 189);
+    width: 100px;
+    height: 30px;
+}
+
 /* fine DEBUG  */
 
 .body{
@@ -25,22 +38,41 @@
 
 header{
     width: 100%;
-    height: 100px;
-    position: fixed;
-    left: 0;
-    top: 0;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .video_settings{
+    display: flex;
+}
+
+
+
+main{
+    height: calc(100vh - 150px);
+    width: 100%;
     background-color: black;
 }
 
-main{
-    height: calc(100vh - 200px);
-    margin: 100px 0;
+.main_container{
+    max-width: 90%;
+    height: 100%;
+    margin: auto;
     overflow-y: auto;
 }
 
+.person{
+    height: 140px;
+    width: 230px;
+}
+
+
 footer{
     width: 100%;
-    height: 100px;
+    height: 75px;
     position: fixed;
     left: 0;
     bottom: 0;
