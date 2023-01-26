@@ -14,9 +14,6 @@
 }
 
 
-.debug main{
-}
-
 
 
 /* fine DEBUG  */
@@ -102,10 +99,27 @@ footer{
     background-color: #222222;
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 
 .footer_right{
     display: flex;
+}
+
+.conatiner_function{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+}
+
+.conatiner_function i{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.conatiner_function span{
+    font-size: 13px;
 }
 
 .footer_center{
